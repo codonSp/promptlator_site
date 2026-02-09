@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" fill="none">
+  <defs>
+    <linearGradient id="gl" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4f9bff"/>
+      <stop offset="100%" stop-color="#7f5af0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" rx="28" fill="#f7f9fc"/>
+  <rect x="80" y="120" width="1040" height="560" rx="22" fill="#fff" stroke="#e0e7f5" stroke-width="3"/>
+  <rect x="120" y="170" width="320" height="40" rx="12" fill="#e8edfb"/>
+  <rect x="120" y="230" width="220" height="26" rx="10" fill="#dfe6ff"/>
+  <rect x="120" y="270" width="340" height="26" rx="10" fill="#dfe6ff"/>
+  <rect x="120" y="310" width="280" height="26" rx="10" fill="#dfe6ff"/>
+  <rect x="520" y="230" width="560" height="220" rx="16" fill="url(#gl)" opacity="0.18"/>
+  <text x="140" y="140" fill="#0f172a" font-family="Sora, 'Space Grotesk', sans-serif" font-size="34" font-weight="700">Prompt Library · Placeholder</text>
+  <text x="540" y="280" fill="#0f172a" font-family="Sora, 'Space Grotesk', sans-serif" font-size="28" font-weight="700">Replace with your real screenshot</text>
+  <text x="540" y="320" fill="#5b6475" font-family="Sora, 'Space Grotesk', sans-serif" font-size="20">Drop the actual image at assets/img/screenshot-library.jpg</text>
+</svg>

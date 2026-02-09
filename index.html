@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Promptlator | Translate your thoughts into perfect prompts</title>
+  <meta name="description" content="Promptlator is a Chrome extension that translates your thoughts into perfect prompts with AI-powered intent detection and Socratic enhancement.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="nav">
+      <div class="nav__brand">
+        <span class="logo" aria-hidden="true"></span>
+        <div class="nav__title">
+          <span class="nav__name">Promptlator</span>
+          <span class="nav__tag">AI prompt translator</span>
+        </div>
+      </div>
+      <nav class="nav__links">
+        <a href="#features">Features</a>
+        <a href="#how">How it works</a>
+        <a href="#gallery">Screenshots</a>
+        <a href="#faq">FAQ</a>
+        <a class="btn ghost" href="https://buymeacoffee.com/satyad" target="_blank" rel="noreferrer">Buy me a coffee</a>
+        <a class="btn primary" id="cta-store" href="#" rel="noreferrer">Add to Chrome</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero__video-bg" aria-hidden="true">
+          <video src="assets/media/demo.mp4" autoplay loop muted playsinline></video>
+        </div>
+        <div class="hero__copy">
+          <p class="eyebrow">Chrome extension · AI-enhanced prompts</p>
+          <h1>Translate your thoughts into perfect prompts.</h1>
+          <p class="lede">Promptlator detects your intent across 55 categories and turns rough ideas into structured, high-performing prompts for ChatGPT, Claude, and Gemini.</p>
+          <div class="cta-row">
+            <a class="btn primary" id="cta-store-hero" href="#" rel="noreferrer">Add to Chrome</a>
+            <a class="btn secondary" href="#demo">Watch demo</a>
+            <a class="btn ghost" href="https://buymeacoffee.com/satyad" target="_blank" rel="noreferrer">Buy me a coffee</a>
+          </div>
+          <div class="hero__meta">
+            <span>Free core features</span>
+            <span>Local-first · your API key stays yours</span>
+          </div>
+        </div>
+        <div class="hero__media">
+          <div class="hero__card">
+            <div class="hero__badge">55 intent types</div>
+            <div class="hero__highlight">
+              <p class="hero__label">Prompt Library</p>
+              <p class="hero__text">Save, search, and reuse structured prompts with {{variable}} placeholders.</p>
+            </div>
+            <div class="hero__preview">
+              <p class="hero__label">Enhanced Output</p>
+              <ul>
+                <li>Structured, context-rich prompts</li>
+                <li>Socratic questioning baked in</li>
+                <li>One-click toggle inside ChatGPT</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="pillars" id="pillars">
+        <div class="pillar">
+          <h3>Smart intent detection</h3>
+          <p>Understands what you want: coding, research, writing, learning, planning, and more.</p>
+        </div>
+        <div class="pillar">
+          <h3>Template library</h3>
+          <p>55 crafted templates with {{variable}} support. Save, search, and reuse instantly.</p>
+        </div>
+        <div class="pillar">
+          <h3>Zero friction</h3>
+          <p>Works right inside ChatGPT, Claude, and Gemini. No copy-paste, no tab switching.</p>
+        </div>
+        <div class="pillar">
+          <h3>Privacy-first</h3>
+          <p>Your prompts stay local. Gemini API key stored in-browser; no tracking by default.</p>
+        </div>
+      </section>
+
+      <section class="how" id="how">
+        <div class="section-heading">
+          <p class="eyebrow">How it works</p>
+          <h2>From rough idea to Super Prompt in seconds</h2>
+        </div>
+        <div class="steps">
+          <div class="step">
+            <span class="step__id">1</span>
+            <h3>Type any prompt</h3>
+            <p>Start typing in ChatGPT/Claude/Gemini. Promptlator watches the input box.</p>
+          </div>
+          <div class="step">
+            <span class="step__id">2</span>
+            <h3>Pick or auto-detect intent</h3>
+            <p>Choose from 10 categories (55 intents) or let AI infer what you need.</p>
+          </div>
+          <div class="step">
+            <span class="step__id">3</span>
+            <h3>Send enhanced</h3>
+            <p>Get a structured, assumption-aware prompt with clarifying questions and examples.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="features" id="features">
+        <div class="section-heading">
+          <p class="eyebrow">Features</p>
+          <h2>Built for people who live in AI chat</h2>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <h3>55-intent system</h3>
+            <p>Coverage across coding, research, writing, analysis, planning, and teaching.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Socratic enhancement</h3>
+            <p>Prompts include assumptions, steps, and clarifying questions by design.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Prompt Library</h3>
+            <p>Save templates with {{variable}} placeholders, track usage, and search instantly.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Two-stage control</h3>
+            <p>Toggle enhancement on/off; choose manual intent or auto-detect per prompt.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Local-first privacy</h3>
+            <p>No tracking. Gemini API key stays in your browser. Nothing sent to third parties unless you choose.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Lightweight</h3>
+            <p>Vanilla JS content scripts, Shadow DOM isolation, minimal bundle size.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="gallery" id="gallery">
+        <div class="section-heading">
+          <p class="eyebrow">Screenshots</p>
+          <h2>See Promptlator in action</h2>
+        </div>
+        <div class="gallery__grid">
+          <figure class="gallery__item">
+            <img src="assets/img/screenshot-library.jpg" alt="Prompt Library screenshot" loading="lazy">
+            <figcaption>Prompt Library with reusable templates</figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <img src="assets/img/screenshot-intent.jpg" alt="Choose intent modal" loading="lazy">
+            <figcaption>Choose your intention per prompt</figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <img src="assets/img/screenshot-enhance.jpg" alt="Enhanced prompt preview" loading="lazy">
+            <figcaption>Enhanced prompt preview before sending</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="cta-banner" id="cta">
+        <div>
+          <p class="eyebrow">Ready to level up prompts?</p>
+          <h2>Add Promptlator to Chrome</h2>
+          <p class="lede">Free core features. Optional AI-powered enhancements with your own Gemini API key.</p>
+        </div>
+        <div class="cta-row">
+          <a class="btn primary" id="cta-store-banner" href="#" rel="noreferrer">Add to Chrome</a>
+          <a class="btn ghost" href="https://buymeacoffee.com/satyad" target="_blank" rel="noreferrer">Buy me a coffee</a>
+        </div>
+      </section>
+
+      <section class="newsletter" id="waitlist">
+        <div>
+          <p class="eyebrow">Get updates</p>
+          <h2>Join the Promptlator drop list</h2>
+          <p class="lede">Releases, new templates, and tips. We respect your inbox.</p>
+        </div>
+        <form class="email-form" id="email-form">
+          <label class="sr-only" for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="you@example.com" required>
+          <input type="text" name="website" class="hp" autocomplete="off" tabindex="-1">
+          <button type="submit" class="btn primary">Notify me</button>
+          <p class="form-note" id="form-note">Powered by Formspree. Replace endpoint before launch.</p>
+        </form>
+      </section>
+
+      <section class="faq" id="faq">
+        <div class="section-heading">
+          <p class="eyebrow">FAQ</p>
+          <h2>Answers in 60 seconds</h2>
+        </div>
+        <div class="faq__list">
+          <details open>
+            <summary>Is Promptlator free?</summary>
+            <p>Core features are free. Optional AI-powered enhancements use your own Gemini API key.</p>
+          </details>
+          <details>
+            <summary>Does it store my prompts?</summary>
+            <p>Prompts stay in your browser (chrome.storage.local). Nothing is sent to our servers.</p>
+          </details>
+          <details>
+            <summary>Which sites are supported?</summary>
+            <p>ChatGPT (full), Claude (stub), Gemini (stub). Add-ons are adapter-based so new sites are easy.</p>
+          </details>
+          <details>
+            <summary>Will it slow down my browser?</summary>
+            <p>No. It’s lightweight vanilla JS with programmatic injection and Shadow DOM isolation.</p>
+          </details>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__brand">
+        <span class="logo small" aria-hidden="true"></span>
+        <div>
+          <p class="footer__title">Promptlator</p>
+          <p class="footer__tag">Translate your thoughts into perfect prompts.</p>
+        </div>
+      </div>
+      <div class="footer__links">
+        <a href="#features">Features</a>
+        <a href="#how">How it works</a>
+        <a href="#faq">FAQ</a>
+        <a href="https://buymeacoffee.com/satyad" target="_blank" rel="noreferrer">Buy me a coffee</a>
+      </div>
+      <div class="footer__cta">
+        <a class="btn primary" id="cta-store-footer" href="#" rel="noreferrer">Add to Chrome</a>
+      </div>
+    </footer>
+  </div>
+
+  <script src="assets/js/main.js" type="module"></script>
+</body>
+</html>
